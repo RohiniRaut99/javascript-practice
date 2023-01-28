@@ -1,0 +1,38 @@
+<script>
+
+var arr = [1, 2, 3 ,4 ,5, 6 ,7 , 8 , 9]
+
+function increamentNoByFive(num)
+{
+    return num+5;
+}
+
+
+console.log("Original Array")
+console.log(arr)
+var array_after_add = arr.map(increamentNoByFive);
+console.log("array after increament each number")
+console.log(array_after_add);
+
+function isNumberOdd(num)
+{
+    return num%2 != 0
+}
+
+
+var array_with_odd_nos = arr.filter(isNumberOdd)
+console.log("Array with odd nos")
+console.log(array_with_odd_nos)
+
+function sumAllEl(sum, index)
+{
+    return sum+index;
+}
+
+var sum = arr.reduce(sumAllEl)
+console.log("Sum")
+console.log(sum)
+
+
+
+</script>

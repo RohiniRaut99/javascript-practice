@@ -1,0 +1,22 @@
+<script>
+
+var marks = [11,22,3,74,5,60,7];
+var avg =0;
+var max_marks = 0;
+for(var index = 0; index< marks.length; index++)
+{
+    if (marks[index] > max_marks)
+    {
+        max_marks = marks[index]
+    }
+    marks[index] = marks[index] + 10;
+    console.log(marks[index])
+    avg += marks[index];
+
+}
+
+avg = avg/marks.length;
+console.log(avg);
+console.log(max_marks);
+    
+</script>

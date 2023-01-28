@@ -1,0 +1,38 @@
+html
+<!DOCTYPE html
+<html>
+    <body>
+        <script>
+            var a = [1,2,44,18,16,6,7,8,9]
+            function increamentByten(num)
+            {
+                return num+10;
+            }
+            console.log("original array")
+            console.log(a)
+            var a_after_add = a.map(increamentByten);
+            console.log("a_after increment each number ")
+            console.log(a_after_add);
+
+
+            function isNumberEven(num)
+            {
+                return num %2==0
+            }
+
+         var a = a.filter(isNumberEven)
+         console.log(a)
+
+         function sumAllEl (sum,index)
+        {
+            return sum + index;  
+        }
+         var sum = a.reduce(sumAllEl)
+          console.log("sum")
+          console.log(sum)
+    
+
+
+        </script>
+    </body>
+</html>

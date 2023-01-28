@@ -1,0 +1,25 @@
+Resources:- 
+https://www.youtube.com/watch?v=PkZNo7MFNFg
+
+Basic programs 
+1. Write a program to print hello world on console
+2. Write a program to take two numbers as input from user and print them on console
+3. Write a program to print addition of two numbers on console . Take nos as input from user 
+4. Write a program to check if given no is odd or even . if even print even to console otherwise odd 
+5. Write a program to print numbers from 1 to 100 on console 
+6. Write a program to print numbers from 1 to user provided number on console 
+7. Write a program to print only odd numbers to console in range from 1 to user provided numbers
+8. Write a program to print matrix position on console 
+9. write a program to check if given no is prime or not 
+10. Write a program to take 10 numbers from user and print it on console
+11. Write a program to take 10 numbers from user and print their addtion on console 
+12. Write a program to take 10 numbers and print max among them to console 
+13. Write a program to take 10 numbers from user and also search element from user and print to console whether that no
+	is there in those 10 elements or not 
+14. Write a program to find second maximum element in given elements (Take every input from user )
+15. Write a program to take 10 numbers from user and print them in reverse order to console 
+16. Write a program to perform matrix addition 
+17. Write a program to take elements from user and print them in sorted order 
+18. Write a program to check given string is palindrome or not 
+19. Write a program to check if given string is substring of other or not 
+20. Write a program to find factorial of a given number 

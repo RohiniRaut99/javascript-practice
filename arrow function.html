@@ -1,0 +1,76 @@
+html
+<!DOCTYPE html
+<html>
+    <body>
+        <script>
+
+// Arrow Function
+// it is an new feature introduced in ES6
+// arrow function can be written in one line
+// it decrease size of function as compared to traditional
+// arrow function is an alternative to the traditional function
+
+// this keyword binding available
+
+// drawback
+// can not use as constructor.
+// does not have new traget keyword
+
+
+// syntax one param
+
+// param = > expression
+
+// example
+
+const materials=['a', 'b', 'c'];
+const materialsData = materials.map(element => element.length);
+console.log('length',materialsData);
+
+// anynomous function means names without function name
+function (a){
+	return a+ 100;
+}
+
+// one type
+(a) =>{
+	return a+ 100;
+}
+
+// secon type
+(a) => return a+ 100;
+
+// third
+a => return a + 100;
+
+
+// with named function
+
+
+// without arrow function
+function bob(a){
+	return a+ 100;
+} 
+
+// with arrow function
+
+let bob = a => a + 100;
+
+
+
+
+// can not use as constructor
+
+var foo = () => {};
+var foo = new foo();
+
+
+//do not use  prototype property(used as inheritance)
+
+var foo = () =>{};
+console.log(foo.prototype());
+
+            
+        </script>
+    </body>
+</html>

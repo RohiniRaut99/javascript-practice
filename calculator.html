@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="text" name="first" id="firstNo" value=""/>
+        <input type="text" name="second" id="secondNo" value=""/>
+        <button onclick="add()">+</button>
+        <label id="myResult">""</label>
+        <br></br>
+        <input type="text" name="third" id="thirdNo" value=""/>
+        <input type="text" name="forth" id="forthNo" value=""/>
+        <button onclick="mul()">*</button>
+        <label id="myResult">""</label>
+        <br></br>
+        <input type="text" name="fifth" id="fifthNo" value=""/>
+        <input type="text" name="sixth" id="sixthNo" value=""/>
+        <button onclick="sub()">-</button>
+        <label id="myResult">""</label>
+        <br></br>
+        <input type="text" name="seventh" id="seventhNo" value=""/>
+        <input type="text" name="eighth" id="eightNo" value=""/>
+        <button onclick="div()">/</button>
+        <label id="myResult">""</label>
+    </body>
+    <script>
+        function add()
+        {
+            var firstValue = document.getElementById("firstNo").value;
+            var secondValue = document.getElementById("secondNo").value;
+            var sum = firstValue + secondValue;
+            console.log(sum);
+            document.getElementById("myResult").innerHTML = sum;
+              
+           
+        }
+          function mul()
+          {
+            var thirdValue = document.getElementById("thirdNo").value;
+            var forthValue = document.getElementById("forthNo").value;
+            var mul =thirdValue * forthValue;
+            console.log(mul);
+            document.getElementById("myResult").innerHTML = mul;
+           
+          }
+            function sub()
+            {
+                var fifthValue = document.getElementById("fifthNo").value;
+                var sixthValue = document.getElementById("sixthNo").value;
+                var sub =fifthValue - sixthValue;
+                console.log(sub);
+                document.getElementById("myResult").innerHTML = sub;
+
+
+            }
+        
+              function div()
+              {
+                var seventValue = document.getElementById("seventhNo").value;
+                var eighthValue = document.getElementById("eighthNo").value;
+                var div =seventValue / eighthValue;
+                console.log(div);
+                document.getElementById("myResult").innerHTML = div;
+
+              }
+            
+            
+
+    </script>
+</html>

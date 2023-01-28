@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="text" name="first" id="firstNo" value=""/>
+        <input type="text" name="second" id="secondNo" value=""/>
+        <button onclick="add()">+</button>
+        <label id="myResult">rfght</label>
+        <br></br>
+        <button onclick="mul()">*</button>
+      
+        <br></br>
+        <button onclick="sub()">-</button>
+        
+        <br></br> 
+        <button onclick="dd()">/</button>
+        
+       
+    </body>
+    <script>
+        function add()
+        {
+            var firstValue = document.getElementById("firstNo").value;
+            var secondValue = document.getElementById("secondNo").value;
+            var sum = firstValue + secondValue;
+            console.log(sum);
+            document.getElementById("myResult").innerHTML = sum;
+              
+           
+        }            
+          function mul()
+          {
+            var firstValue = document.getElementById("firstNo").value;
+            var secondValue = document.getElementById("secondNo").value;
+            var a = firstValue * secondValue;
+            console.log(a);
+            document.getElementById("myResult").innerHTML = a;
+           
+          }
+            function sub()
+            {
+              var firstValue = document.getElementById("firstNo").value;
+            var secondValue = document.getElementById("secondNo").value;
+            var sum = firstValue - secondValue;
+            console.log(sum);
+            document.getElementById("myResult").innerHTML = sum;
+
+
+            }
+        
+              function dd()
+              {
+            var firstValue = document.getElementById("firstNo").value;
+            var secondValue = document.getElementById("secondNo").value;
+            var sum = firstValue / secondValue;
+            console.log(sum);
+            document.getElementById("myResult").innerHTML = sum;
+
+              }
+            
+            
+
+    </script>
+</html>
